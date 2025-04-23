@@ -1,0 +1,24 @@
+BST is evovlvded versiom version of binary tree where search time complexity become very less in most of the cases 
+in binary tree we got tc of searchimg 0(n)...n is no of nodes of tree
+int Bst we got tc of searching 0(h)...h is the height of thats tree in average cases int height is become  log n for comopletely balanced tree 
+used for fast lookup
+What is BST?
+similar to binary tree with some addition tree (like we can compare with binary search type (means sorting id imp left<root<right))
+1.. every single left node is less value of root node
+2... every right node is more value of root nood
+3.. every subtree satisfy the bst property
+4.. there are no duplicates  ***
+
+.. the inorder sequence of the bst gave us the sorteed sequence excluding null or -1;
+
+-> concept of searching 
+similar to binary search 
+compare thtas key with root to nkow wheather kew is gretaer or samller 
+if key is greter search on right subtree
+if key is lesser than root search on left subtreerepeat the same process 
+.. worst case with balanced tree (average cases) ..key is at any leaf so its tc is 0(h)
+for balaced time complexity its (h is logn)
+... worst case (skeweed tree)kewal ek taraf root  then (h is eqal to n)
+
+STRAtEGY .. recursion
+.. Most problem solved using recursion by dividing into sub problems 

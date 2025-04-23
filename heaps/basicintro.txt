@@ -1,0 +1,16 @@
+priority queues / heaps 
+means a dher ..
+priority related to  preference order
+in priority queus the min prio comes first and so on 
+
+// implement using java collection frame work 
+import package 
+Priority Queue <Integer> pq=new PriorityQueue<>();
+// major operations 
+1.. add() 0(logn) // n is thtas no of elemnt that already in pq
+2.. remove() 0(logn)
+3.. peek() 0(1)
+
+.. here in priority quuee htere is no fifo ocuur 
+it occurs on the bassees of priority 
+// pq by default gave sequencr of priority in ascending order 
