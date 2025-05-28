@@ -1,4 +1,6 @@
-// code for only sum=k 
+package slidingwindow;
+
+// code for only sum=k
 public class codetest {
     public static void main(String[] args) {
         int array[]={10,5,2,7,1,9};

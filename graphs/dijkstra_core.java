@@ -5,6 +5,7 @@ package graphs;
 import java.util.*;
 public class dijkstra_core {
      static class edge{
+        @SuppressWarnings("unused")
         int source;
         int desti;
         int weight;
@@ -55,7 +56,6 @@ public class dijkstra_core {
         }
 
     }
-    @SuppressWarnings("unchecked")
     public static void main(String[] args) {
         int v=6;
         ArrayList<edge>graph[]=new ArrayList[v];

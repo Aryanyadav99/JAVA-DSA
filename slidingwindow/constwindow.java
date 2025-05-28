@@ -1,4 +1,4 @@
-//type 1 problem here we have to find the max sum of a subarray consist 4 element 
+package slidingwindow;//type 1 problem here we have to find the max sum of a subarray consist 4 element
 
 public class constwindow {
     public static void main(String[] args) {

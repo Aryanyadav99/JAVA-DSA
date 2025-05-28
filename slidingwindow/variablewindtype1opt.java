@@ -1,3 +1,5 @@
+package slidingwindow;
+
 //most imp type
 // so this is a type of variation of sw where window is not fixed it continously variating there may be increment and decrement acc to ques 
 //so the ques type is longest subarray/string with condition

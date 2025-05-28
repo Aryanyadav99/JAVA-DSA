@@ -2,8 +2,8 @@ import java.util.*;
 
 public class BFSvsDFSComparison {
     static class Graph {
-        private int vertices; // Number of vertices
-        private LinkedList<Integer>[] adjList; // Adjacency List
+        int vertices; // Number of vertices
+        LinkedList<Integer>[] adjList; // Adjacency List
 
         Graph(int vertices) {
             this.vertices = vertices;

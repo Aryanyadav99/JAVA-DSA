@@ -26,3 +26,6 @@ public class kadanes {
         System.out.println(i);
     }
 }
+
+ // we can also find the min sum of subarray through kadanes algo only we have to chanfe the max to min and sum<0
+// ohh if there are all +ve element then no preobme the min of them beacme the min beacuse we are making it sum evertime zero afet >0
