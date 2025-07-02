@@ -1,0 +1,6 @@
+1.. when we have to find the max subaaray with +ve and 0 having sum<=k or sum=k then we ccan use sliding and prefix sling priority
+2..if there is -ve also then sliding doest neccesarly give correct relut then prefix sum is opt 
+3.. when we have to count 
+        1.pos-- sliding window or prefix   --------> for equal <=k-<=k-1
+        2.0 or -ve -- cannot use sliding window we ahve to -ve
+        3.. why 0 included here beacuse 0 does increase the val so we are end up to skip some array where we have the lp move from 0

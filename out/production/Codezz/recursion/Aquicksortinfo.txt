@@ -1,0 +1,9 @@
+1.. quick sort 
+
+quick sort is name as quick sort beacuse it operates the code quickly as compare to other sorting algo 
+beacuse it doesnt need to store value in somewhere in other space and related to some cache 
+pivot is center point (in general)
+its worst case time complesity is 0(n2)
+and averge case is 0(nlogn)
+worst case is appear sometime when there is a already sorted array either in ascending or descending  
+

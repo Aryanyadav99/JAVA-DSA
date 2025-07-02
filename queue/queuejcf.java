@@ -8,10 +8,11 @@ public class queuejcf {
  // we can use ArrayDeque intesdof linkedlist in this object other thing are same 
   //the only differnece is t 
   //q.clear(); is used to clear the complete queue
-     q.add(1);
-     q.add(2);
-     q.add(3);
-     q.remove();
+     q.offer(1);
+     q.offer(2);
+     q.offer(3);
+       System.out.println(q.poll());
+       System.out.println("....");
      while(!q.isEmpty()){
         System.out.println(q.peek());
         q.remove();

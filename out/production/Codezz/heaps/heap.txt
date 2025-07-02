@@ -1,0 +1,34 @@
+ all of the pq datastructre are formed due to heap 
+ heap ds is like a binary tree implement tree by array and formed priority queue
+there are two heaps in java max heap and min heap based on priority 
+in min heap the root node is min
+in max heap the root node is max 
+// we visiulize heap as a binary tree and implement as an array or arrray list
+heap ds have three properties 
+1..p1 
+heap is like binary tree means having[2 subtree]
+
+2..p2
+heap is [complpete binary tree] means all the levels are completely filled
+(except) posibilly right one and they are filled from left to right
+
+3..p3
+[heap order property]
+children >= parent (min heap);
+parent >=children (max heap)
+
+// we dint implement in form of node class like binary tree
+reason(time complexity)
+.. pahle to ye duduo ki kaha khali space hai node ko add karne ke liye tc0(n)
+.. then on addinf it may violate the heap proprty tc(extra)
+// tc= insert + coorect 
+in pq add take 0(logn)
+  0.. thats why we impplement heaps in the form of array/arraylist
+we can visulatise the heap in form of bt becaused we have to show the property  in form of parent child relationship
+ we can also visulise heap in the form of arrayor list by giving it no on node but is is only for balaced binary trees 
+ 4..p4 for array or list we have one property if(node)idx=i;
+then leftchild=2i+1;
+    rightchild=2i+2;
+
+    // for inserting on last in array/list is very easy having tc0(1);
+

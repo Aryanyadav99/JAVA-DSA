@@ -1,0 +1,14 @@
+// leap year 
+if you think 4 is suff for leap year divisibility then you are a fool 
+
+it is true for some instance but thats not valid for century years(repeated after 100 year)
+
+..some sentray year is divisible for 4 but not a leap year 
+
+so there is a extra condition for centuary year 
+ if(no is not divisble by 4 then confirmly not a leap year)
+ if it is divisibe for then we have to find some more detail for centuary year 
+
+ so for century it must be divisble by 100  then we got centuary year so it musstttttt be divisible with 400 for getting a leap year 
+
+ /// got it 

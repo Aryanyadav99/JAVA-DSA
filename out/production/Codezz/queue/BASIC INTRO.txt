@@ -1,0 +1,29 @@
+Aline of person/object is called queues 
+its just the horizontal view of stack 
+first col is called front adn last is called rear 
+it is FIFO datatype structure first in first out 
+entry is from rear(back) side 
+exit is from front side 
+*** rear when array is empty rear index is -1 and front is 0 we always do all opertions with rear
+
+basic opertaions on queus
+
+1.Add() tc 0(1) --also called enque
+fornt hamesa first wala rahega add ham rear ki madat se karege intisilally puri list khail hogi 
+to front and rear same hoge then rear ko next me point kara ke elemnts add karte jayege
+
+2..Remove() tc0(1) --also called dequeue(means que se bahar niklna)
+fornt ki value hatae jao aur front ko age batate jao
+deque -a term study further means double ended queue means entry and exitst from both direction
+
+3..peek() tc0(1)
+it means watch the value of front ;
+
+
+implementation 
+
+it can be done by linked list ,array,arraylist,stack 
+by array:->
+array have a fixed size draw back and remove opertioon have tc 0(n)so
+so its not advised to use array as a ques implementation but we can use it in circular queue 
+..

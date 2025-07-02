@@ -1,0 +1,39 @@
+// OPTIMISATION PROBLEMS
+--opti problems are those prob which requre  min or max result final 
+
+--for any problem there are many solutions
+--and having some fessile solution means those sol which satisfying constrains(condition)
+--but there is only one optimal solution (opt sol are those sol which is already fessible and gave us the best result(ex-min oe max among all))
+--opt sol are those which satisfy the objective of problem 
+
+There are three ways for solving the OPTIMISATION PROBLEMS
+
+1..greedy meathod
+2.. Dynamic Programing
+3..branch and bound
+..some problem can be done by 1 or 2 or 3 and some can be done by all or any two 
+
+// Greedy meathod shows that the problem solved in stages 
+..in each stage we found first local sol by taking the greedy choice (which is fessible and optimal for that stage )
+..then by clubbing all these local sol we can get the global solution(optimal sol)
+
+
+
+Basically in greedy algorithm you have to be take a greedy chioce in small steps
+
+pacticle example :- a company take interview 
+r1 online test 1000 student select top 100 student that is called local sol
+r2 interview test 100 student selelct top 20 student local sol for that round
+r3 hr intervire test 20 student top 10 selected local sol for that round
+from all these local we get final soln thats called global solution
+and company done all of this by greddy approach...
+
+1...They are mostly used in optimaising problem means final soln may be min or may be max;
+2...Most of them use sorting borfore approach
+3...there is no fixed rule
+pros 
+..simple and easy
+..tc is good enough
+cons
+.. a lot of time global optium is not achieved thtas why we apply it on very particular questions
+then we some other techniques like dp and branch bound
