@@ -12,9 +12,6 @@ public class dfs2 {
         }
     }
     public static void  depthser(ArrayList<info>graph[],int src,boolean [] visited){
-        if(visited[src]){
-            return;
-        }
         visited[src]=true;
         System.out.println(src);
         for(int i=0;i<graph[src].size();i++){
